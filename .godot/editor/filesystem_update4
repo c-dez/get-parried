@@ -1,0 +1,7 @@
+res://player/player.tscn
+res://player/player.gd
+res://player/attack.tscn
+res://player/attack.gd
+res://world1.tscn
+res://enemies/enemy_1.tscn
+res://enemies/enemy_1.gd
