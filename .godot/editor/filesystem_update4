@@ -8,3 +8,5 @@ res://enemies/enemy_1.gd
 res://enemies/turret.tscn
 res://enemies/turret.gd
 res://enemies/bullet.tscn
+res://player/aim_and_shoot.tscn
+res://player/aim_and_shoot.gd

@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://cysr30myw0vrp"]
+[gd_scene load_steps=6 format=3 uid="uid://cysr30myw0vrp"]
 
 [ext_resource type="Script" path="res://player/player.gd" id="1_aum2u"]
 [ext_resource type="Texture2D" uid="uid://bue5hwswa4r6k" path="res://icon.svg" id="2_bj7f3"]
 [ext_resource type="PackedScene" uid="uid://vlol70wk8856" path="res://player/attack.tscn" id="3_n1det"]
+[ext_resource type="PackedScene" uid="uid://2n02vj2g42bt" path="res://player/aim_and_shoot.tscn" id="4_t1sah"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_4ale1"]
 
@@ -15,6 +16,8 @@ shape = SubResource("CircleShape2D_4ale1")
 
 [node name="Sprite_player" type="Sprite2D" parent="."]
 texture = ExtResource("2_bj7f3")
+
+[node name="Aim_and_shoot" parent="." instance=ExtResource("4_t1sah")]
 
 [node name="pivot" type="Node2D" parent="."]
 

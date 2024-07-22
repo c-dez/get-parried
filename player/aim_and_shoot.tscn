@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://2n02vj2g42bt"]
+
+[ext_resource type="Texture2D" uid="uid://ddq0u78uh3ea" path="res://player/crossHair_circulo.png" id="1_bsmt5"]
+[ext_resource type="Script" path="res://player/aim_and_shoot.gd" id="1_yibrx"]
+
+[node name="Aim_and_shoot" type="Node2D"]
+script = ExtResource("1_yibrx")
+
+[node name="cross_hair" type="Sprite2D" parent="."]
+texture = ExtResource("1_bsmt5")
