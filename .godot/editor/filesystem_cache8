@@ -1,3 +1,16 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1721516635
+::res://::1721678136
 icon.svg::CompressedTexture2D::3800290262131238548::1721516631::1721516636::1::::<><>::
+world1.tscn::PackedScene::3326021062060646737::1721678136::0::1::::<><>::uid://cysr30myw0vrp::::res://player/player.tscn<>uid://dk4wy1v82bak4::::res://enemies/turret.tscn<>uid://dcel8rf0jgvvy::::res://enemies/bullet.tscn
+::res://enemies/::1721678136
+enemy_1.tscn::PackedScene::723547599397706896::1721678136::0::1::::<><>::res://enemies/enemy_1.gd
+enemy_1.gd::GDScript::-1::1721522542::0::1::::<>Area2D<>::
+bullet.tscn::PackedScene::7308624969260047702::1721678136::0::1::::<><>::
+turret.gd::GDScript::-1::1721538020::0::1::::<>CharacterBody2D<>::
+turret.tscn::PackedScene::7922397474805426441::1721678136::0::1::::<><>::res://enemies/turret.gd<>uid://bue5hwswa4r6k::::res://icon.svg
+::res://player/::1721678424
+crossHair_circulo.png::CompressedTexture2D::217776882335309840::1721678424::1721678425::1::::<><>::
+player.tscn::PackedScene::6495615938120685901::1721678136::0::1::::<><>::res://player/player.gd<>uid://bue5hwswa4r6k::::res://icon.svg<>uid://vlol70wk8856::::res://player/attack.tscn
+player.gd::GDScript::-1::1721519353::0::1::::<>CharacterBody2D<>::
+attack.tscn::PackedScene::1497545273706615879::1721678400::0::1::::<><>::res://player/attack.gd
+attack.gd::GDScript::-1::1721678400::0::1::::<>Node2D<>::
